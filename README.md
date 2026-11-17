@@ -55,3 +55,7 @@ Requires the Xcode command line tools (`xcode-select --install`).
 ```
 
 PickPic is deliberately small: a quick cull and sort, not a photo editor. Windows and Linux ports are welcome if you know those platforms' file management.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
