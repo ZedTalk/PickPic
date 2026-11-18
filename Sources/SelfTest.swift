@@ -2,7 +2,7 @@ import AppKit
 import ImageIO
 import UniformTypeIdentifiers
 
-/// `PickPic --selftest <empty folder>` drives the review logic with made-up
+/// `Picull --selftest <empty folder>` drives the review logic with made-up
 /// photos and checks the results. Nothing goes to the real Trash.
 @MainActor
 enum SelfTest {

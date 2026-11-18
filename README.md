@@ -1,16 +1,16 @@
-# PickPic (beta)
+# Picull (beta)
 
-Fast photo culling for Mac. Open a folder, arrow through it, and press one key per photo. PickPic never edits a photo, and there is no library to import into.
+Fast photo culling for Mac. Open a folder, arrow through it, and press one key per photo. Picull never edits a photo, and there is no library to import into.
 
-![PickPic main window](guide/single.jpg)
+![Picull main window](guide/single.jpg)
 
 ## Download
 
-Get the latest zip from the [Releases](../../releases) page. It contains PickPic.app (Apple silicon + Intel) and the Quickstart PDF.
+Get the latest zip from the [Releases](../../releases) page. It contains Picull.app (Apple silicon + Intel) and the Quickstart PDF.
 
 **Needs:** macOS 14 or later. Tested on Apple silicon with macOS 27. Intel testers wanted.
 
-**First launch:** this beta is not notarized by Apple, so macOS blocks it the first time. Double-click PickPic, dismiss the warning, then go to System Settings > Privacy & Security, scroll down and click **Open Anyway**. You only do this once.
+**First launch:** this beta is not notarized by Apple, so macOS blocks it the first time. Double-click Picull, dismiss the warning, then go to System Settings > Privacy & Security, scroll down and click **Open Anyway**. You only do this once.
 
 > This is beta software that tags, moves and trashes files. Try it on a **copy** of a photo folder first.
 
@@ -23,7 +23,7 @@ Get the latest zip from the [Releases](../../releases) page. It contains PickPic
 - **Burst detection** and a **Pick a winner** mode for choosing the best frame in a burst.
 - **Finish** moves keepers into a "To Edit" folder and sends rejects to the Trash. Both are optional, and you choose which ratings move.
 
-Full details and every keyboard shortcut are in the [Quickstart guide](PickPic%20Quickstart.pdf).
+Full details and every keyboard shortcut are in the [Quickstart guide](Picull%20Quickstart.pdf).
 
 ## Keys
 
@@ -50,11 +50,11 @@ Bug reports and feature requests are what this beta is for. Open an [issue](../.
 Requires the Xcode command line tools (`xcode-select --install`).
 
 ```bash
-./build.sh      # builds PickPic.app in this folder
+./build.sh      # builds Picull.app in this folder
 ./package.sh    # builds a universal (Apple silicon + Intel) zip for sharing
 ```
 
-PickPic is deliberately small: a quick cull and sort, not a photo editor. Windows and Linux ports are welcome if you know those platforms' file management.
+Picull is deliberately small: a quick cull and sort, not a photo editor. Windows and Linux ports are welcome if you know those platforms' file management.
 
 ## License
 

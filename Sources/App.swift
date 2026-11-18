@@ -52,7 +52,7 @@ struct PhotoRaterApp: App {
     @StateObject private var lib = Library()
 
     var body: some Scene {
-        Window("PickPic", id: "main") {
+        Window("Picull", id: "main") {
             ContentView()
                 .environmentObject(lib)
                 .environmentObject(lib.zoom)

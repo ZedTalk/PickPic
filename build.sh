@@ -1,16 +1,16 @@
 #!/bin/bash
-# Rebuilds "PickPic.app" in this folder. Run: ./build.sh
+# Rebuilds "Picull.app" in this folder. Run: ./build.sh
 set -euo pipefail
 cd "$(dirname "$0")"
 
-APP="PickPic.app"
+APP="Picull.app"
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS"
 
 compile() {
     swiftc -O -swift-version 5 -parse-as-library "$@" \
         -target "$(uname -m)-apple-macos14.0" \
-        Sources/*.swift -o "$APP/Contents/MacOS/PickPic" 2>build.log
+        Sources/*.swift -o "$APP/Contents/MacOS/Picull" 2>build.log
 }
 
 # The macOS 27 SDK needs a SwiftUI plugin that only comes with full Xcode.

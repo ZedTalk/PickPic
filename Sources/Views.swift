@@ -53,7 +53,7 @@ struct ContentView: View {
             }
             return true
         }
-        .navigationTitle(lib.folder.map { "PickPic — \($0.lastPathComponent)" } ?? "PickPic")
+        .navigationTitle(lib.folder.map { "Picull — \($0.lastPathComponent)" } ?? "Picull")
         .frame(minWidth: 1060, minHeight: 640)
         .preferredColorScheme(.dark)
     }
